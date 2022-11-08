@@ -1,0 +1,10 @@
+insert into professions (name) values ('Clinical Specialist');
+insert into professions (name) values ('Social Worker');
+insert into professions (name) values ('Developer I');
+insert into professions (name) values ('Sales Representative');
+insert into professions (name) values ('Technical Writer');
+insert into professions (name) values ('Quality Control Specialist');
+insert into professions (name) values ('Data Coordiator');
+insert into professions (name) values ('Legal Assistant');
+insert into professions (name) values ('Chemical Engineer');
+insert into professions (name) values ('Associate Professor');

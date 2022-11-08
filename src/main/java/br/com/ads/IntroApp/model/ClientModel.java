@@ -5,7 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "clients")
+@Table(name = "client")
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClientModel {
@@ -36,6 +36,12 @@ public class ClientModel {
     @Getter @Setter
     @ApiModelProperty(notes = "A valid email address")
     private String email;
+
+    //..relationship with ProfessionModel
+    @ManyToOne
+    @JoinColumn(name = "profession_id")
+    @Setter @Getter
+    private ProfessionModel profession;
 
 
 }
